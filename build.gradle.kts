@@ -1,14 +1,14 @@
 plugins {
     `java-library`
-    id("economy-checkstyle") apply false
-    id("economy-spotless") apply false
+    id("template-checkstyle") apply false
+    id("template-spotless") apply false
 }
 
 subprojects {
     apply<JavaLibraryPlugin>()
 
-    apply(plugin = "economy-checkstyle")
-    apply(plugin = "economy-spotless")
+    apply(plugin = "template-checkstyle")
+    apply(plugin = "template-spotless")
 
     java {
         toolchain {
