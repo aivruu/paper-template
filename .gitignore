@@ -12,3 +12,6 @@ bin
 
 # Ignore errors log files
 .log
+
+# Ignore run-velocity/paper cache directory
+run
