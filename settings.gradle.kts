@@ -15,7 +15,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "economy-test"
+rootProject.name = "plugin-template"
 
 sequenceOf(
     "api",
