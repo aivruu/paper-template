@@ -25,21 +25,24 @@ tasks {
         destinationDirectory.set(file("$rootDir/bin/"))
         minimize()
 
-        relocate("dev.triumphteam.cmd", "$group.libs.dev.triumphteam.cmd")
         relocate("org.spongepowered", "$group.libs.org.spongepowered")
         relocate("io.leangen.geantyref", "$group.libs.io.leangen.geantyref")
     }
 }
 
-blossom {
-    replaceToken("{{version}}", version, "src/main/java/me/qeklydev/economy/Constants.java")
+sourceSets {
+    main {
+        blossom {
+            javaSources {
+                property("version", version)
+            }
+        }
+    }
 }
 
 dependencies {
-    api(project(":economy-api"))
+    api(project(":template-api"))
+    api(libs.configurate.hocon)
 
     compileOnlyApi(libs.paper)
-    
-    api(libs.configurate.hocon)
-    api(libs.command)
 }
