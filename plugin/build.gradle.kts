@@ -36,7 +36,7 @@ blossom {
 }
 
 dependencies {
-    api(project(":api"))
+    api(project("api"))
 
     compileOnlyApi(libs.paper)
     
