@@ -9,6 +9,6 @@ dependencies {
 
 spotless {
     kotlin { 
-      licenseHeaderFile(rootProject.file("../HEADER.txt")
+        licenseHeaderFile(rootProject.file("../HEADER.txt"))
     }
 }
