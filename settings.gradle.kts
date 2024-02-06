@@ -4,7 +4,6 @@ dependencyResolutionManagement {
     repositories {
         mavenCentral()
         maven("https://repo.papermc.io/repository/maven-public/")
-        maven("https://repo.triumphteam.dev/snapshots/")
     }
 }
 
@@ -22,7 +21,7 @@ sequenceOf(
     "api",
     "plugin"
 ).forEach {
-    val project = ":economy-$it"
+    val project = ":template-$it"
     include(project)
     project(project).projectDir = file(it)
 }
