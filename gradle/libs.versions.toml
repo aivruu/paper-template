@@ -1,0 +1,26 @@
+[versions]
+blossom = "1.2.0"
+shadow = "8.1.1"
+spotless = "6.25.0"
+
+paper = "1.20-R0.1-SNAPSHOT"
+
+configurate = "4.1.2"
+command = "2.0.0-SNAPSHOT"
+
+mongodb = "4.11.0"
+
+[libraries]
+paper = { module = "io.papermc.paper:paper-api", version.ref = "paper" }
+
+configurate-hocon = { module = "org.spongepowered:configurate-hocon", version.ref = "configurate" }
+command = { module = "dev.triumphteam:triumph-cmd-bukkit", version.ref = "command" }
+
+mongodb-driver = { module = "org.mongodb:mongodb-driver-sync", version.ref = "mongodb" }
+
+checkstyle = "com.puppycrawl.tools:checkstyle:10.9.3"
+
+[plugins]
+blossom = { id = "net.kyori.blossom", version.ref = "blossom" }
+shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
