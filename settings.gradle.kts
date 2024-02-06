@@ -4,7 +4,7 @@ dependencyResolutionManagement {
     repositories {
         mavenCentral()
         maven("https://repo.papermc.io/repository/maven-public/")
-        maven("https://repo.triumph.team/snapshots/")
+        maven("https://repo.triumphteam.dev/snapshots/")
     }
 }
 
