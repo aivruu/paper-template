@@ -4,7 +4,6 @@ plugins {
 
 dependencies {
     compileOnlyApi(libs.paper)
-    compileOnlyApi(libs.mongodb.driver)
 }
 
 tasks {
