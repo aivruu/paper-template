@@ -3,14 +3,12 @@ blossom = "1.2.0"
 shadow = "8.1.1"
 spotless = "6.25.0"
 
-paper = "1.20-R0.1-SNAPSHOT"
-velocity = "3.3.0-SNAPSHOT"
+paper = "1.20.4-R0.1-SNAPSHOT"
 
 configurate = "4.1.2"
 
 [libraries]
 paper = { module = "io.papermc.paper:paper-api", version.ref = "paper" }
-velocity = { group = "com.velocitypowered", name = "velocity", version.ref = "velocity" }
 
 configurate-hocon = { module = "org.spongepowered:configurate-hocon", version.ref = "configurate" }
 
