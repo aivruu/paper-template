@@ -1,9 +1,9 @@
-package com.aivruu.homes;
+package io.github.aivruu.template;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.slf4j.Logger;
 
-public final class HomesPlugin extends JavaPlugin {
+public final class PaperPlugin extends JavaPlugin {
   private Logger logger;
 
   @Override
