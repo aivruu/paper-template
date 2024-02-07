@@ -2,6 +2,7 @@ plugins {
     java
     alias(libs.plugins.shadow)
     alias(libs.plugins.blossom)
+    alias(libs.plugins.idea.ext)
 }
 
 val group = property("group") as String
