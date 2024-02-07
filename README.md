@@ -1,2 +1,2 @@
-# plugin-template
-A Template for advanced Paper/Velocity plugins creation.
+# paper-template
+A template for the advanced Paper plugins creation.
