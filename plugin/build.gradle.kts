@@ -2,7 +2,6 @@ plugins {
     java
     alias(libs.plugins.shadow)
     alias(libs.plugins.blossom)
-    alias(libs.plugins.idea.ext)
 }
 
 val group = property("group") as String
@@ -31,14 +30,8 @@ tasks {
     }
 }
 
-sourceSets {
-    main {
-        blossom {
-            javaSources {
-                property("version", version)
-            }
-        }
-    }
+blossom {
+    replaceToken("{version}", version, "src/main/java/io/github/aivruu/template/Constants.java")
 }
 
 dependencies {
