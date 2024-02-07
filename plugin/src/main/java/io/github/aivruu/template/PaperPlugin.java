@@ -8,7 +8,6 @@ public final class PaperPlugin extends JavaPlugin {
 
   @Override
   public void onLoad() {
-    Provider.load(this);
     this.logger = getComponentLogger();
     this.logger.info("Loading Paper plugin template");
   }
