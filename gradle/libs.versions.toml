@@ -2,7 +2,6 @@
 blossom = "1.2.0"
 shadow = "8.1.1"
 spotless = "6.25.0"
-idea-ext = "1.1.7"
 
 paper = "1.20-R0.1-SNAPSHOT"
 velocity = "3.3.0-SNAPSHOT"
@@ -21,4 +20,3 @@ checkstyle = "com.puppycrawl.tools:checkstyle:10.9.3"
 blossom = { id = "net.kyori.blossom", version.ref = "blossom" }
 shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
-idea-ext = { id = "org.jetbrains.gradle.plugin.idea-ext", version.ref = "idea-ext" }
