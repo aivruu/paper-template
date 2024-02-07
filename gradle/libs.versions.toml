@@ -21,4 +21,4 @@ checkstyle = "com.puppycrawl.tools:checkstyle:10.9.3"
 blossom = { id = "net.kyori.blossom", version.ref = "blossom" }
 shadow = { id = "com.github.johnrengelman.shadow", version.ref = "shadow" }
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
-idea-ext = { id = "org.jetbrains.gradle.plugin.idea-ext", = version.ref = "idea-ext" }
+idea-ext = { id = "org.jetbrains.gradle.plugin.idea-ext", version.ref = "idea-ext" }
